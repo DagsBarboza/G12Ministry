@@ -1,0 +1,7 @@
+@import "g12treetheme.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in g12treetheme.scss */
+.g12treetheme {
+  @include g12treetheme;
+}
